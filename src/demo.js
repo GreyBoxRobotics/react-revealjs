@@ -1,6 +1,4 @@
-require('babel-polyfill');
-
-
+import './less/main.less';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import ReactReveal from 'react-revealjs';
@@ -42,14 +40,4 @@ const revealConfig = {
 
 const app = document.querySelector('#app');
 
-function start () {
-  ReactDOM.render(
-    <ReactReveal
-      sections={sections}
-      reveal={revealConfig}
-    />,
-    app
-  );
-};
-
-start();
+ReactDOM.render(<ReactReveal sections={sections} reveal={revealConfig} />, app);
