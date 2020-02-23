@@ -3,7 +3,7 @@ require('babel-polyfill');
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ReactReveal from './dist/index.js';
+import ReactReveal from 'react-revealjs';
 import { sections } from './presentation.json';
 
 const revealConfig = {
