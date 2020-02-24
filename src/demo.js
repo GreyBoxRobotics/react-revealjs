@@ -36,6 +36,7 @@ const revealConfig = {
   parallaxBackgroundSize : '',
   parallaxBackgroundHorizontal : null,
   parallaxBackgroundVertical : null,
+  // As plugin sources are static, their path is relative to the final location of the bundled script
   dependencies : [
     {
       src : '../plugin/markdown/marked.js',
