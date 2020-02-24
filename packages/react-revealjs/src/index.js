@@ -1,5 +1,6 @@
-const React = require('react');
-const Reveal = require('reveal.js');
+import React from 'react';
+import PropTypes from 'prop-types';
+import Reveal from 'reveal.js';
 
 class ReactReveal extends React.Component {
   constructor(props) {
@@ -68,8 +69,8 @@ class ReactReveal extends React.Component {
 }
 
 ReactReveal.propTypes = {
-  name: React.PropTypes.string,
-  sections: React.PropTypes.array
+  name: PropTypes.string,
+  sections: PropTypes.array
 }
 
 ReactReveal.defaultProps = {

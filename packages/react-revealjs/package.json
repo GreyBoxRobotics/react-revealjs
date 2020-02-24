@@ -1,0 +1,22 @@
+{
+  "name": "react-revealjs",
+  "version": "0.0.1",
+  "description": "React component for reveal.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "build-dev": "BABEL_ENV=$NODE_ENV babel src/index.js --out-dir lib --copy-files --config-file ../../babel.config.js",
+    "build": "NODE_ENV=production npm run build-dev",
+    "watch": "NODE_ENV=development npm run build-dev --watch"
+  },
+  "peerDependencies": {
+    "react": "16.x",
+    "react-dom": "16.x",
+    "reveal.js": "3.x"
+  },
+  "keywords": [
+    "React",
+    "reveal.js"
+  ],
+  "author": "Arpit Aggarwal",
+  "license": "ISC"
+}
