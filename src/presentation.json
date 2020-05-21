@@ -10,7 +10,7 @@
     },
     {
       "name": "Three",
-      "markup": "<section><h2>Third slide as markup</h2><p>Some text</p><aside class='notes'>Hey some notes here</aside>"
+      "markup": "<section><h2>Third slide as markup</h2><p>Some text</p><aside class='notes'>Hey some notes here</aside></section>"
     }
   ]
 }
