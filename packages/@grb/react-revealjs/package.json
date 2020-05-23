@@ -1,6 +1,6 @@
 {
-  "name": "react-revealjs",
-  "version": "0.0.1",
+  "name": "@grb/react-revealjs",
+  "version": "0.1.0",
   "description": "React component for reveal.js",
   "main": "lib/index.js",
   "scripts": {
