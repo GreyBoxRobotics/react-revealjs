@@ -14,7 +14,7 @@
     "lerna": "^3.21.0",
     "less": "^3.11.1",
     "less-css-stream": "^2.0.0",
-    "less-loader": "^5.0.0",
+    "less-loader": "^6.1.0",
     "less-plugin-autoprefix": "^2.0.0",
     "path": "^0.12.7",
     "react": "^16.13.1",
